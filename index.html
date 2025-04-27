@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prashant Bansal - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header id="home">
+    <nav>
+      <div class="logo">Prashant Bansal</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-content">
+      <img src="Mine.jpg" alt="Prashant" class="header-img">
+      <h1>Hi, I'm Prashant Bansal</h1>
+      <h3>Cloud Computing Enthusiast</h3>
+      <p>Experienced in AWS, Azure, and GCP, with a strong background in backend development and cloud security.</p>
+      <a href="#contact" class="btn">Contact Me</a>
+      <div class="scroll-down" onclick="scrollDown()">⬇️ Scroll Down</div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="Mine.jpg" alt="About Me" class="about-img">
+      <div>
+        <p>Pre-final year CS student at UPES specializing in Cloud Computing. Proficient in AWS, GCP, C++, and Cloud Development, with a passion for building scalable cloud solutions and leveraging AI/ML to solve real-world challenges.</p>
+        <p>Always exploring, learning, and innovating. Let’s connect! 🚀</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill">AWS <div class="progress skills__aws"></div></div>
+      <div class="skill">SQL <div class="progress skills__sql"></div></div>
+      <div class="skill">Docker <div class="progress skills__docker"></div></div>
+      <div class="skill">Java <div class="progress skills__java"></div></div>
+      <div class="skill">HTML <div class="progress skills__html"></div></div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img src="download.jpg" alt="Docker Project">
+        <h3>Journey into Dockers and Containerization</h3>
+        <p>A personal learning journal exploring Docker from basics to advanced containerization, covering commands, images, volumes, networks, best practices, and troubleshooting.</p>
+        <a href="https://github.com/prashant6378/Docker_Experiments" target="_blank" class="btn">View on GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <img src="download.jpg" alt="Cloud Project">
+        <h3>Cloud Infrastructure Automation</h3>
+        <p>Built an automated deployment pipeline on AWS using Terraform, Docker, and Kubernetes, optimizing cost and reliability.</p>
+        <a href="https://github.com/prashant6378" target="_blank" class="btn">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <div class="contact-info">
+      <p><strong>Call me:</strong> (+91) 6378925452</p>
+      <p><strong>Email:</strong> prashantbansal6378@gmail.com</p>
+      <p><strong>Location:</strong> Dehradun, Uttarakhand</p>
+    </div>
+
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="subject" placeholder="Subject" required>
+      <textarea name="description" placeholder="Description" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Prashant Bansal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
